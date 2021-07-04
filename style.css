@@ -3,7 +3,7 @@
     font-family: initial;
     font-weight: 700;
 }
-section{
+.section-flex{
    display: flex;
 }
 .width{
@@ -43,4 +43,51 @@ h1{
 }
 body{
 margin: 0px;
+}
+.box{
+    width:40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 30px grey;
+    border-radius: 15px;
+    
+
+}
+#border-one{
+    border-left: 7px double cyan;
+    border-image: linear-gradient(blue cyan);
+    border-image-slice: 1;
+    
+}
+.se-bac{
+    background-image: url(picture/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.ac-bc{
+    background-image: url(picture/exp-bg.png);
+
+background-repeat: no-repeat;
+background-position: left;
+    
+}
+#border-two{
+    border-left: 7px tomato double;
+    border-image: linear-gradient(rgb(255, 0, 0) cyan);
+    border-image-slice: 1;
+    
+}
+.footer-color{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 5px;
+}
+.love{
+    color: red;
 }
