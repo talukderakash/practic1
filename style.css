@@ -1,0 +1,17 @@
+.span-color{
+    color: darkorange;
+    font-family: initial;
+    font-weight: 700;
+}
+section{
+   display: flex;
+}
+.width{
+    width:50%;
+}
+.width img{
+ width: 70%;
+}
+.img-round{
+ border-radius: 110%;
+}
